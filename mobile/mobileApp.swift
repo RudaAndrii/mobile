@@ -14,8 +14,4 @@ struct mobileApp: App {
             ContentView()
         }
     }
-    
-    init() {
-        print("Hello, World!")
-    }
 }
