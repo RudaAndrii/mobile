@@ -11,7 +11,6 @@
 		84E73D02253CE7D00072E1A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D01253CE7D00072E1A4 /* ContentView.swift */; };
 		84E73D04253CE7D20072E1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E73D03253CE7D20072E1A4 /* Assets.xcassets */; };
 		84E73D07253CE7D20072E1A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E73D06253CE7D20072E1A4 /* Preview Assets.xcassets */; };
-		84E73D09253CE7D20072E1A4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D08253CE7D20072E1A4 /* Persistence.swift */; };
 		84E73D0C253CE7D20072E1A4 /* mobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D0A253CE7D20072E1A4 /* mobile.xcdatamodeld */; };
 		84E73D17253CE7D20072E1A4 /* mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D16253CE7D20072E1A4 /* mobileTests.swift */; };
 		84E73D22253CE7D20072E1A4 /* mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D21253CE7D20072E1A4 /* mobileUITests.swift */; };
@@ -40,7 +39,6 @@
 		84E73D01253CE7D00072E1A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84E73D03253CE7D20072E1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E73D06253CE7D20072E1A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		84E73D08253CE7D20072E1A4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		84E73D0B253CE7D20072E1A4 /* mobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mobile.xcdatamodel; sourceTree = "<group>"; };
 		84E73D0D253CE7D20072E1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E73D12253CE7D20072E1A4 /* mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +100,6 @@
 				84E73CFF253CE7D00072E1A4 /* mobileApp.swift */,
 				84E73D01253CE7D00072E1A4 /* ContentView.swift */,
 				84E73D03253CE7D20072E1A4 /* Assets.xcassets */,
-				84E73D08253CE7D20072E1A4 /* Persistence.swift */,
 				84E73D0D253CE7D20072E1A4 /* Info.plist */,
 				84E73D0A253CE7D20072E1A4 /* mobile.xcdatamodeld */,
 				84E73D05253CE7D20072E1A4 /* Preview Content */,
@@ -265,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E73D09253CE7D20072E1A4 /* Persistence.swift in Sources */,
 				84E73D02253CE7D00072E1A4 /* ContentView.swift in Sources */,
 				84E73D00253CE7D00072E1A4 /* mobileApp.swift in Sources */,
 				84E73D0C253CE7D20072E1A4 /* mobile.xcdatamodeld in Sources */,
