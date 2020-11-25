@@ -14,21 +14,27 @@ struct ContentView: View {
 
     var body: some View {
         VStack() {
-            HStack() {
-                TextField("Input your name", text: $nameInput)
-                    .frame(width: 220, height: 50, alignment: .center)
-                    .modifier(ClearButtonInTextField(text: $nameInput))
+            TextField("Input your name", text: $nameInput)
+                .frame(width: 220, height: 50, alignment: .center)
+                .modifier(ClearButtonInTextField(text: $nameInput))
 
-                Button(action: {
-                    self.nameOutput = nameInput
-                }) {
-                    Text("Say Hello!")
-                }
-                .buttonStyle(GradientButtonStyle())
+            Button(action: {
+                self.nameOutput = nameInput
+            }) {
+                Text("Say Hello!")
             }
+            .buttonStyle(GradientButtonStyle())
+            
             if (nameOutput != "") {
                 Text("Hello, \(nameOutput)")
             }
         }
+    }
+}
+
+
+struct ContentView_Preview: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
