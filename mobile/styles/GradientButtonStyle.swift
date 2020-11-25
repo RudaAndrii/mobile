@@ -10,6 +10,8 @@ import CoreData
 
 struct GradientButtonStyle: ButtonStyle {
     
+    @Binding var pressedState: Bool
+
     private var pressed: LinearGradient {
         LinearGradient(gradient: Gradient(colors: [Color("darkGreen"), Color("lightGreen")]),
                                     startPoint: .leading,
@@ -27,7 +29,7 @@ struct GradientButtonStyle: ButtonStyle {
         configuration.label
             .foregroundColor(.black)
             .padding(EdgeInsets(top: 3, leading: 7, bottom: 3, trailing: 7))
-            .background(configuration.isPressed ? pressed : released)
+            .background(self.pressedState ? pressed : released)
             .cornerRadius(30)
             .scaleEffect(configuration.isPressed ? 1.02 : 1.00)
             .animation(configuration.isPressed ? Animation.easeInOut(duration: 0.1) : nil)

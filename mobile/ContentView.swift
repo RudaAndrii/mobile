@@ -11,6 +11,7 @@ import CoreData
 struct ContentView: View {
     @State private var nameInput: String = ""
     @State private var nameOutput: String = ""
+    @State private var buttonStyleToggler: Bool = false
 
     var body: some View {
         VStack() {
@@ -20,10 +21,11 @@ struct ContentView: View {
 
             Button(action: {
                 self.nameOutput = nameInput
+                buttonStyleToggler.toggle()
             }) {
                 Text("Say Hello!")
             }
-            .buttonStyle(GradientButtonStyle())
+            .buttonStyle(GradientButtonStyle(pressedState: $buttonStyleToggler))
             
             if (nameOutput != "") {
                 Text("Hello, \(nameOutput)")
