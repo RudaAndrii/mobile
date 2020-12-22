@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842336E02545F0ED006E6EF8 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842336DF2545F0ED006E6EF8 /* GradientButtonStyle.swift */; };
 		84E73D00253CE7D00072E1A4 /* mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73CFF253CE7D00072E1A4 /* mobileApp.swift */; };
 		84E73D02253CE7D00072E1A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D01253CE7D00072E1A4 /* ContentView.swift */; };
 		84E73D04253CE7D20072E1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E73D03253CE7D20072E1A4 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		84E73D0C253CE7D20072E1A4 /* mobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D0A253CE7D20072E1A4 /* mobile.xcdatamodeld */; };
 		84E73D17253CE7D20072E1A4 /* mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D16253CE7D20072E1A4 /* mobileTests.swift */; };
 		84E73D22253CE7D20072E1A4 /* mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D21253CE7D20072E1A4 /* mobileUITests.swift */; };
+		84FD87552545D0F600DAA040 /* ClearButtonInTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD87542545D0F600DAA040 /* ClearButtonInTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842336DF2545F0ED006E6EF8 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		84E73CFC253CE7D00072E1A4 /* mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E73CFF253CE7D00072E1A4 /* mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileApp.swift; sourceTree = "<group>"; };
 		84E73D01253CE7D00072E1A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		84E73D1D253CE7D20072E1A4 /* mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E73D21253CE7D20072E1A4 /* mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileUITests.swift; sourceTree = "<group>"; };
 		84E73D23253CE7D20072E1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FD87542545D0F600DAA040 /* ClearButtonInTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButtonInTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84C69A672546CA0800C32C9D /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				842336DF2545F0ED006E6EF8 /* GradientButtonStyle.swift */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
 		84E73CF3253CE7D00072E1A4 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +109,8 @@
 		84E73CFE253CE7D00072E1A4 /* mobile */ = {
 			isa = PBXGroup;
 			children = (
+				84C69A672546CA0800C32C9D /* styles */,
+				84FD87532545D0DF00DAA040 /* components */,
 				84E73CFF253CE7D00072E1A4 /* mobileApp.swift */,
 				84E73D01253CE7D00072E1A4 /* ContentView.swift */,
 				84E73D03253CE7D20072E1A4 /* Assets.xcassets */,
@@ -131,6 +145,14 @@
 				84E73D23253CE7D20072E1A4 /* Info.plist */,
 			);
 			path = mobileUITests;
+			sourceTree = "<group>";
+		};
+		84FD87532545D0DF00DAA040 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				84FD87542545D0F600DAA040 /* ClearButtonInTextField.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +286,9 @@
 			files = (
 				84E73D02253CE7D00072E1A4 /* ContentView.swift in Sources */,
 				84E73D00253CE7D00072E1A4 /* mobileApp.swift in Sources */,
+				842336E02545F0ED006E6EF8 /* GradientButtonStyle.swift in Sources */,
 				84E73D0C253CE7D20072E1A4 /* mobile.xcdatamodeld in Sources */,
+				84FD87552545D0F600DAA040 /* ClearButtonInTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
