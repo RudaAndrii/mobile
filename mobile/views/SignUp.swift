@@ -14,8 +14,10 @@ struct SignUp: View {
     var body: some View {
         VStack {
             if (!errors.isEmpty) {
-                ForEach(errors, id: \.self) { error in
-                    SignUpErrorRow(error: error)
+                VStack(alignment: .leading) {
+                    ForEach(errors, id: \.self) { error in
+                        SignUpErrorRow(error: error)
+                    }
                 }
             }
             
