@@ -21,13 +21,10 @@ struct SignUp: View {
                 }
             }
             
-            TextField("First name", text: $signUp.firstName).padding()
-            TextField("Last name", text: $signUp.lastName).padding()
-            TextField("Email", text: $signUp.emailAddress).keyboardType(.emailAddress).padding()
-            TextField("Phone", text: $signUp.phone).keyboardType(.phonePad).padding()
-            SecureField("Password", text: $signUp.password).padding()
-            SecureField("Password confirmation", text: $signUp.passwordConfirmation).padding()
-            
+            ForEach(signUp.fields) { field in
+                SignUpInputField(field: field)
+            }
+
             Button(action: {
                 errors = SignUpFormValidationService.vaildateSignUpForm(form: signUp)
             }) {
@@ -35,5 +32,4 @@ struct SignUp: View {
             }
         }
     }
-
 }

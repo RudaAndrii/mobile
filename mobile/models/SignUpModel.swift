@@ -8,10 +8,21 @@
 import SwiftUI
 
 class SignUpModel: ObservableObject {
-    @Published var firstName: String = ""
-    @Published var lastName: String = ""
-    @Published var emailAddress: String = ""
-    @Published var phone: String = ""
-    @Published var password: String = ""
-    @Published var passwordConfirmation: String = ""
+    @Published var fields = createFormWithDefaultValues()
+    
+    private static func createFormWithDefaultValues() -> [SignUpField] {
+        [
+            SignUpField("First name", .firstName, isSecured: false),
+            SignUpField("Last name", .lastName, isSecured: false),
+            SignUpField("Email", .email, isSecured: false),
+            SignUpField("Phone", .phone, isSecured: false),
+            SignUpField("Password", .password, isSecured: true),
+            SignUpField("Password confirmation", .passwordConfirmation, isSecured: true),
+        ]
+    }
+    
+    func getField(byType type: SignUpFieldType) -> SignUpField {
+        fields.first { field in field.type == type }!
+    }
+    
 }
