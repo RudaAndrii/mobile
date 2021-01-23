@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		842336E02545F0ED006E6EF8 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842336DF2545F0ED006E6EF8 /* GradientButtonStyle.swift */; };
+		841595A725BC97CF00522B7D /* ValidationRegexp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841595A625BC97CF00522B7D /* ValidationRegexp.swift */; };
+		847FE85725AB8BD900043970 /* SignUpField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FE85625AB8BD900043970 /* SignUpField.swift */; };
+		847FE85C25AB8C4900043970 /* SignUpFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FE85B25AB8C4900043970 /* SignUpFieldType.swift */; };
+		847FE86125AB8CF800043970 /* SignUpFieldError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FE86025AB8CF800043970 /* SignUpFieldError.swift */; };
+		847FE86625ABFFD800043970 /* SignUpInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FE86525ABFFD800043970 /* SignUpInputField.swift */; };
+		84B5B8422592AB2700B68FA1 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5B8412592AB2700B68FA1 /* SignUp.swift */; };
+		84B5B84B2592AB9000B68FA1 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5B84A2592AB9000B68FA1 /* SignUpModel.swift */; };
+		84B5B85A2592BA4900B68FA1 /* SignUpFormValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5B8592592BA4900B68FA1 /* SignUpFormValidationService.swift */; };
+		84D898D0259407E600CB0F64 /* SignUpErrorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D898CF259407E600CB0F64 /* SignUpErrorRow.swift */; };
 		84E73D00253CE7D00072E1A4 /* mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73CFF253CE7D00072E1A4 /* mobileApp.swift */; };
 		84E73D02253CE7D00072E1A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D01253CE7D00072E1A4 /* ContentView.swift */; };
 		84E73D04253CE7D20072E1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E73D03253CE7D20072E1A4 /* Assets.xcassets */; };
@@ -15,7 +23,6 @@
 		84E73D0C253CE7D20072E1A4 /* mobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D0A253CE7D20072E1A4 /* mobile.xcdatamodeld */; };
 		84E73D17253CE7D20072E1A4 /* mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D16253CE7D20072E1A4 /* mobileTests.swift */; };
 		84E73D22253CE7D20072E1A4 /* mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E73D21253CE7D20072E1A4 /* mobileUITests.swift */; };
-		84FD87552545D0F600DAA040 /* ClearButtonInTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD87542545D0F600DAA040 /* ClearButtonInTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		842336DF2545F0ED006E6EF8 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		841595A625BC97CF00522B7D /* ValidationRegexp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationRegexp.swift; sourceTree = "<group>"; };
+		847FE85625AB8BD900043970 /* SignUpField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpField.swift; sourceTree = "<group>"; };
+		847FE85B25AB8C4900043970 /* SignUpFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFieldType.swift; sourceTree = "<group>"; };
+		847FE86025AB8CF800043970 /* SignUpFieldError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFieldError.swift; sourceTree = "<group>"; };
+		847FE86525ABFFD800043970 /* SignUpInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInputField.swift; sourceTree = "<group>"; };
+		84B5B8412592AB2700B68FA1 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		84B5B84A2592AB9000B68FA1 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		84B5B8592592BA4900B68FA1 /* SignUpFormValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormValidationService.swift; sourceTree = "<group>"; };
+		84D898CF259407E600CB0F64 /* SignUpErrorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpErrorRow.swift; sourceTree = "<group>"; };
 		84E73CFC253CE7D00072E1A4 /* mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E73CFF253CE7D00072E1A4 /* mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileApp.swift; sourceTree = "<group>"; };
 		84E73D01253CE7D00072E1A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +65,6 @@
 		84E73D1D253CE7D20072E1A4 /* mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E73D21253CE7D20072E1A4 /* mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileUITests.swift; sourceTree = "<group>"; };
 		84E73D23253CE7D20072E1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84FD87542545D0F600DAA040 /* ClearButtonInTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButtonInTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +92,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84C69A672546CA0800C32C9D /* styles */ = {
+		841595A525BC97BC00522B7D /* constants */ = {
 			isa = PBXGroup;
 			children = (
-				842336DF2545F0ED006E6EF8 /* GradientButtonStyle.swift */,
+				841595A625BC97CF00522B7D /* ValidationRegexp.swift */,
 			);
-			path = styles;
+			name = constants;
+			sourceTree = "<group>";
+		};
+		84B5B8402592AB1400B68FA1 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				84B5B8412592AB2700B68FA1 /* SignUp.swift */,
+				847FE86525ABFFD800043970 /* SignUpInputField.swift */,
+				84D898CF259407E600CB0F64 /* SignUpErrorRow.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		84B5B8462592AB4700B68FA1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				84B5B84A2592AB9000B68FA1 /* SignUpModel.swift */,
+				847FE85625AB8BD900043970 /* SignUpField.swift */,
+				847FE85B25AB8C4900043970 /* SignUpFieldType.swift */,
+				847FE86025AB8CF800043970 /* SignUpFieldError.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		84B5B8582592BA1900B68FA1 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				84B5B8592592BA4900B68FA1 /* SignUpFormValidationService.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 		84E73CF3253CE7D00072E1A4 = {
@@ -109,8 +152,10 @@
 		84E73CFE253CE7D00072E1A4 /* mobile */ = {
 			isa = PBXGroup;
 			children = (
-				84C69A672546CA0800C32C9D /* styles */,
-				84FD87532545D0DF00DAA040 /* components */,
+				841595A525BC97BC00522B7D /* constants */,
+				84B5B8582592BA1900B68FA1 /* services */,
+				84B5B8462592AB4700B68FA1 /* models */,
+				84B5B8402592AB1400B68FA1 /* views */,
 				84E73CFF253CE7D00072E1A4 /* mobileApp.swift */,
 				84E73D01253CE7D00072E1A4 /* ContentView.swift */,
 				84E73D03253CE7D20072E1A4 /* Assets.xcassets */,
@@ -145,14 +190,6 @@
 				84E73D23253CE7D20072E1A4 /* Info.plist */,
 			);
 			path = mobileUITests;
-			sourceTree = "<group>";
-		};
-		84FD87532545D0DF00DAA040 /* components */ = {
-			isa = PBXGroup;
-			children = (
-				84FD87542545D0F600DAA040 /* ClearButtonInTextField.swift */,
-			);
-			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,10 +322,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E73D02253CE7D00072E1A4 /* ContentView.swift in Sources */,
+				84B5B84B2592AB9000B68FA1 /* SignUpModel.swift in Sources */,
+				84B5B85A2592BA4900B68FA1 /* SignUpFormValidationService.swift in Sources */,
+				841595A725BC97CF00522B7D /* ValidationRegexp.swift in Sources */,
 				84E73D00253CE7D00072E1A4 /* mobileApp.swift in Sources */,
-				842336E02545F0ED006E6EF8 /* GradientButtonStyle.swift in Sources */,
+				84D898D0259407E600CB0F64 /* SignUpErrorRow.swift in Sources */,
+				847FE85C25AB8C4900043970 /* SignUpFieldType.swift in Sources */,
+				84B5B8422592AB2700B68FA1 /* SignUp.swift in Sources */,
+				847FE85725AB8BD900043970 /* SignUpField.swift in Sources */,
 				84E73D0C253CE7D20072E1A4 /* mobile.xcdatamodeld in Sources */,
-				84FD87552545D0F600DAA040 /* ClearButtonInTextField.swift in Sources */,
+				847FE86125AB8CF800043970 /* SignUpFieldError.swift in Sources */,
+				847FE86625ABFFD800043970 /* SignUpInputField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
