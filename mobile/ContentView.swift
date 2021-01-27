@@ -11,19 +11,22 @@ import CoreData
 struct ContentView: View {
 
     var body: some View {
-        SignUp(signUp: SignUpModel())
-    }
-}
+        NavigationView {
+            VStack(spacing: 60) {
+                SignUp()
+                
+                HStack (spacing: 50) {
+                    NavigationLink(destination: UserListView()) {
+                        Text("Users")
+                    }
+                    NavigationLink(destination: PhotoView()) {
+                        Text("Photos")
+                    }
+                }
+            }
+        }
+        .navigationTitle("Sign Up")
 
 
-struct ContentView_Preview: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
