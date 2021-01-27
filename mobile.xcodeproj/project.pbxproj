@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		841595A725BC97CF00522B7D /* ValidationRegexp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841595A625BC97CF00522B7D /* ValidationRegexp.swift */; };
-		841595B225BCAA5100522B7D /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841595B125BCAA5100522B7D /* Secret.swift */; };
 		841595BF25BCC38500522B7D /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841595BE25BCC38500522B7D /* PhotoModel.swift */; };
 		841595CC25BCC4DC00522B7D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841595CB25BCC4DC00522B7D /* UserModel.swift */; };
 		841595F325BCCBCE00522B7D /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841595F225BCCBCE00522B7D /* PhotoView.swift */; };
@@ -66,7 +65,6 @@
 		7B790F6711A49C5E661B4EF6 /* Pods-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile.release.xcconfig"; path = "Target Support Files/Pods-mobile/Pods-mobile.release.xcconfig"; sourceTree = "<group>"; };
 		804E979A02C6EEFDA416BCFF /* Pods-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile.debug.xcconfig"; path = "Target Support Files/Pods-mobile/Pods-mobile.debug.xcconfig"; sourceTree = "<group>"; };
 		841595A625BC97CF00522B7D /* ValidationRegexp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationRegexp.swift; sourceTree = "<group>"; };
-		841595B125BCAA5100522B7D /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		841595BE25BCC38500522B7D /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		841595CB25BCC4DC00522B7D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		841595F225BCCBCE00522B7D /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				841595A625BC97CF00522B7D /* ValidationRegexp.swift */,
-				841595B125BCAA5100522B7D /* Secret.swift */,
 			);
 			name = constants;
 			sourceTree = "<group>";
@@ -594,7 +591,6 @@
 				84E0791B25C0CFEE003EDFA7 /* PhotoController.swift in Sources */,
 				847FE85725AB8BD900043970 /* SignUpField.swift in Sources */,
 				84E0792425C0D118003EDFA7 /* PhotoViewModel.swift in Sources */,
-				841595B225BCAA5100522B7D /* Secret.swift in Sources */,
 				84E73D0C253CE7D20072E1A4 /* mobile.xcdatamodeld in Sources */,
 				84E0795025C0F13B003EDFA7 /* UserListView.swift in Sources */,
 				847FE86125AB8CF800043970 /* SignUpFieldError.swift in Sources */,
