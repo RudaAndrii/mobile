@@ -8,10 +8,10 @@
 import Foundation
 
 struct PhotoModel: Decodable, Identifiable {
-    let id: String
-    let altDescription: String
-    let urls: [String: String]
-    let user: UserModel
+    var id: String
+    var altDescription: String? = ""
+    var urls: [String: String]
+    var user: UserModel
     
     enum CodingKeys: String, CodingKey {
         case id

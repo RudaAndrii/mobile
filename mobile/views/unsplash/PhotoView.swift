@@ -18,7 +18,7 @@ struct PhotoView: View {
             } else {
                 List(viewModel.photos) { photo in
                     ImageURL(photo.urls["small"]!)
-                    Text (photo.altDescription)
+                    Text (photo.altDescription ?? "Empty description")
                 }
             }
         }

@@ -16,6 +16,7 @@ struct PhotoController {
     static func getPhotos(completion complete: @escaping ([PhotoModel]?) -> Void) {
         AF.request(URL)
             .responseDecodable(of: [PhotoModel].self) { response in
+                print(response)
                 complete(response.value)
             }
     }
