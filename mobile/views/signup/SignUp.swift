@@ -11,6 +11,10 @@ struct SignUp: View {
     @ObservedObject var signUp = SignUpModel()
     @State var errors = [String] ()
     
+    init() {
+        signUp = SignUpModel()
+    }
+    
     var body: some View {
         VStack {
             if (!errors.isEmpty) {
@@ -27,6 +31,10 @@ struct SignUp: View {
 
             Button(action: {
                 errors = SignUpFormValidationService.vaildateSignUpForm(form: signUp)
+                if (errors.isEmpty) {
+                    let user = User(fields: signUp.fields)
+                    UserService.save(user)
+                }
             }) {
                 Text("Submit!")
             }
